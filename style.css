@@ -1,7 +1,9 @@
 .row > div {
   padding-top: 36px;
 }
-
+.bg-lg{
+  background: #ffffe0;
+}
 .intro h1 {
   margin-top: 0;
 }
