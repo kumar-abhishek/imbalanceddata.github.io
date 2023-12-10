@@ -114,7 +114,7 @@ body > footer p {
  color: #333;
 }
 .contacts{
-  font-size: 18px;
+  font-size: 14px;
 }
 @media (max-width : 500px){
   .center-icon{
