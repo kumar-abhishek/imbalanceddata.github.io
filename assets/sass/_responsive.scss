@@ -1,0 +1,74 @@
+@media screen and (max-width: 767px) {
+  /*==========================================
+  5. Buy Now Section
+============================================*/
+  #buynow {
+    margin: 10rem 0 5rem;
+    .content-box {
+      padding: 4rem 2rem;
+
+      .inner-container {
+        padding: 3rem 0;
+        .ebook {
+          img {
+            padding: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  /*===========================
+  9. Target Audience Section
+============================*/
+  #target-audience {
+    padding: 10rem 0;
+  }
+
+  /*===========================
+  11. About Section
+============================*/
+  #about {
+    .author-card {
+      padding: 0 2rem;
+      .content-box {
+        padding: 2rem;
+      }
+    }
+  }
+
+  /*===========================
+  13. Footer Section
+============================*/
+  #footer {
+    .content-box {
+      .inbox-box {
+        text-align: center;
+        .theme-btn1 {
+          margin-top: 1rem;
+        }
+      }
+    }
+    .copyright-menu {
+      .copyright-text {
+        p {
+          text-align: center;
+        }
+      }
+      .footer-menu {
+        margin: 0;
+        li {
+          display: block;
+          text-align: center;
+          padding: 0.5rem 0;
+        }
+      }
+      .social-icon {
+        margin: 0;
+        text-align: center;
+        li {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

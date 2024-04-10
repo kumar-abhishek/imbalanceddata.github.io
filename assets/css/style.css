@@ -1,0 +1,566 @@
+/********************Table Content**********************/
+/* 
+* 1. Google Fonts
+* 2. Reset
+* 3. Global Settings
+* 4. Header Section
+* 5. Buy Now Section
+* 6. How This book is Different Section
+* 7. Book Description Section
+* 8. What you will learn Section
+* 9. Target Audience Section
+* 10. Table of Contents Section
+* 11. About The Authors Section
+* 12. Now Available Section
+* 13. Footer Section
+* . Responsive Content
+*/
+/*===========================
+  1. Google Font 
+============================*/
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+/*===========================
+  2. Reset
+============================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+/*===========================
+  3. Global Settings
+============================*/
+body {
+  font-family: "Satoshi", sans-serif;
+  font-weight: normal;
+  background-color: #f8f4f2;
+}
+
+a {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.43rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.title1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 6rem;
+  color: #f58746;
+}
+
+.title2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 6rem;
+  color: #f58746;
+}
+
+.title3 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 6rem;
+  color: #f58746;
+}
+
+.sub-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.24rem;
+  color: #000;
+}
+
+.common-text {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  color: #000;
+}
+
+.common-sub-text {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3.5rem;
+  color: #4a3b32;
+}
+
+/* Button */
+.default-btn,
+.theme-btn1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 3.84rem;
+  color: #f58746;
+  background-color: #fff;
+  border: none;
+  padding: 1rem 5rem;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.theme-btn2 {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 3.36rem;
+  color: #fff;
+  background-color: #f58746;
+  height: 5.47rem;
+  width: 21.4rem;
+  line-height: 5.4rem;
+  border: none;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+/* Input */
+.input-control {
+  width: 35.7rem;
+  height: 5.7rem;
+  line-height: 5.7rem;
+  padding: 0 2rem;
+  border: 1px solid rgba(29, 5, 48, 0.1490196078);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.input-control::placeholder {
+  color: #827576;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 5.7rem;
+}
+
+/*===========================
+  4. Header Section
+============================*/
+#header {
+  padding: 3rem 0;
+}
+
+#header .inner-container {
+  max-width: 102rem;
+  margin: 0 auto;
+}
+
+#header .inner-container .content-box p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 4.5rem;
+  color: #000;
+}
+
+#header .inner-container .submit-email p {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: #000;
+}
+
+/*==========================================
+  5. Buy Now Section
+============================================*/
+#buynow {
+  margin: 10rem 0 5rem;
+}
+
+#buynow .content-box {
+  padding: 4rem 8rem;
+  background-color: #fff;
+  border: 0.1rem solid rgba(96, 83, 84, 0.1490196078);
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+}
+
+#buynow .content-box .inner-container {
+  padding: 3rem 5rem;
+}
+
+#buynow .content-box .inner-container .ebook img {
+  padding: 0 0.6rem;
+}
+
+/*==========================================
+  6. How This book is Different Section
+============================================*/
+#book-different {
+  padding: 10rem 0;
+}
+
+#book-different .content-box .title2 {
+  padding-bottom: 5rem;
+}
+
+#book-different .content-box .content-body {
+  background-color: #fff;
+  margin: 2rem 0;
+  padding: 4rem 5rem;
+  border: 0.1rem solid rgba(96, 83, 84, 0.1490196078);
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+#book-different .content-box .content-body .sub-title {
+  padding-bottom: 1rem;
+}
+
+/*===========================
+  7. Book Description Section
+============================*/
+#book-description {
+  padding: 15rem 0;
+}
+
+#book-description .title2 {
+  padding-bottom: 8rem;
+}
+
+/*===========================
+ 8. What you will learn Section
+============================*/
+#learn .content-box {
+  text-align: center;
+  margin: 1rem 3rem;
+  padding: 3rem 4rem;
+  background-color: #fff;
+  box-shadow: 0.5rem -0.5rem 0rem 0.1rem #be7d57;
+  height: 40rem;
+}
+
+#learn .content-box .title2 {
+  background-color: #be7d57;
+  color: #fff;
+  width: 8rem;
+  height: 8rem;
+  line-height: 8rem;
+  margin: 0 auto;
+  border-radius: 50rem;
+  -webkit-border-radius: 50rem;
+  -moz-border-radius: 50rem;
+  -ms-border-radius: 50rem;
+  -o-border-radius: 50rem;
+}
+
+#learn .content-box .common-text {
+  padding-top: 3rem;
+}
+
+/*===========================
+  9. Target Audience Section
+============================*/
+#target-audience {
+  padding: 10rem;
+}
+
+#target-audience .inner-container {
+  max-width: 102.4rem;
+  margin: 0 auto;
+}
+
+#target-audience .inner-container .title2 {
+  padding-bottom: 6rem;
+}
+
+/*===========================
+  10. Table Content Section
+============================*/
+#table-content {
+  padding-bottom: 8rem;
+}
+
+#table-content .title2 {
+  padding-bottom: 6rem;
+}
+
+#table-content .content-box {
+  width: 100%;
+  height: 100%;
+  padding: 4rem 5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+#table-content .content-box ol li {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 5rem;
+  color: #000;
+}
+
+#table-content .content-box ol li:first-child {
+  font-size: 2.6rem;
+  font-weight: 900;
+  line-height: 5rem;
+  color: #000;
+}
+
+/*===========================
+  11. About Section
+============================*/
+#about {
+  padding: 9rem 0;
+}
+
+#about .title2 {
+  padding-bottom: 6rem;
+}
+
+#about .author-card {
+  padding: 0 5rem;
+}
+
+#about .author-card .content-box {
+  padding: 6rem 6.3rem 4rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0.6rem 0.7rem 0 1rem #545478;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+#about .author-card .content-box .title3 {
+  padding: 1.5rem 0;
+}
+
+/*===========================
+  12. Now Available Section
+============================*/
+#now-available {
+  padding: 10rem 0;
+  text-align: center;
+  position: relative;
+}
+
+#now-available .img-box-1,
+#now-available .img-box-2,
+#now-available .img-box-3,
+#now-available .img-box-4,
+#now-available .img-box-5 {
+  position: absolute;
+}
+
+#now-available .img-box-2 {
+  top: 10rem;
+  right: 11.5rem;
+}
+
+#now-available .img-box-3 {
+  top: 9rem;
+  right: 9.5rem;
+}
+
+#now-available .img-box-4 {
+  right: 27rem;
+  bottom: 10rem;
+}
+
+#now-available .img-box-5 {
+  right: 9rem;
+  bottom: 8rem;
+}
+
+#now-available .content-box {
+  background-color: #f58746;
+  text-align: center;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+#now-available .content-box .inner-container {
+  max-width: 102.4rem;
+  margin: 0 auto;
+  padding: 3rem 5rem;
+}
+
+/*===========================
+  13. Footer Section
+============================*/
+#footer {
+  background-color: #be7d57;
+  padding: 2rem 5rem 1rem;
+  border-top-left-radius: 2rem;
+}
+
+#footer .content-box {
+  padding: 5rem 0 7rem;
+}
+
+#footer .content-box .title2 {
+  color: #fff;
+}
+
+#footer .content-box .footer-text {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 3.96rem;
+  color: #fff;
+}
+
+#footer .content-box .theme-btn1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.88rem;
+  color: #be7d57;
+}
+
+#footer .copyright-menu .copyright-text p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+  color: #fff;
+  text-align: right;
+  margin: 0;
+}
+
+#footer .copyright-menu .footer-menu {
+  list-style: none;
+}
+
+#footer .copyright-menu .footer-menu li {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+#footer .copyright-menu .social-icon {
+  list-style: none;
+  text-align: right;
+}
+
+#footer .copyright-menu .social-icon li {
+  display: inline-block;
+  margin: 0 0.6rem;
+}
+
+.sliderController .slick-prev:before {
+  content: url(../images/prev-slider.png);
+}
+
+.sliderController .slick-next:before {
+  content: url(../images/next-slider.png);
+}
+
+.slick-prev,
+.slick-next {
+  top: 104%;
+}
+
+.slick-prev {
+  left: 94%;
+}
+
+/*===========================
+  . Responsive Content
+============================*/
+@media screen and (max-width: 767px) {
+
+  /*==========================================
+    5. Buy Now Section
+  ============================================*/
+  #buynow {
+    margin: 10rem 0 5rem;
+  }
+
+  #buynow .content-box {
+    padding: 4rem 2rem;
+  }
+
+  #buynow .content-box .inner-container {
+    padding: 3rem 0;
+  }
+
+  #buynow .content-box .inner-container .ebook img {
+    padding: 0.5rem;
+  }
+
+  /*===========================
+    9. Target Audience Section
+  ============================*/
+  #target-audience {
+    padding: 10rem 0;
+  }
+
+  /*===========================
+    11. About Section
+  ============================*/
+  #about .author-card {
+    padding: 0 2rem;
+  }
+
+  #about .author-card .content-box {
+    padding: 2rem;
+  }
+
+  /*===========================
+    13. Footer Section
+  ============================*/
+  #footer .content-box .inbox-box {
+    text-align: center;
+  }
+
+  #footer .content-box .inbox-box .theme-btn1 {
+    margin-top: 1rem;
+  }
+
+  #footer .copyright-menu .copyright-text p {
+    text-align: center;
+  }
+
+  #footer .copyright-menu .footer-menu {
+    margin: 0;
+  }
+
+  #footer .copyright-menu .footer-menu li {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  #footer .copyright-menu .social-icon {
+    margin: 0;
+    text-align: center;
+  }
+
+  #footer .copyright-menu .social-icon li {
+    margin-top: 1rem;
+  }
+
+  .slick-prev {
+    left: 84%;
+  }
+}

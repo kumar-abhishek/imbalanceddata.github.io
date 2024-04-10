@@ -1,0 +1,81 @@
+body {
+  font-family: "Satoshi", sans-serif;
+  font-weight: normal;
+  background-color: #f8f4f2;
+}
+a{
+  @include text(1.8rem, 500, 2.43rem, #fff);
+  text-decoration: none;
+}
+
+.title1 {
+  @include text(4rem, 700, 6rem, $theme_primary_color);
+}
+.title2 {
+  @include text(3.5rem, 900, 6rem, $theme_primary_color);
+}
+.title3 {
+  @include text(3rem, 900, 6rem, $theme_primary_color);
+}
+
+.sub-title {
+  @include text(2.4rem, 700, 3.24rem, #000);
+}
+
+.common-text {
+  @include text(2.2rem, 500, 4.5rem, #000);
+}
+.common-sub-text {
+  @include text(2rem, 500, 3.5rem, #4a3b32);
+}
+
+/* Button */
+.default-btn {
+  @include text(2.4rem, 900, 3.84rem, $theme_primary_color);
+
+  background-color: $theme_white_color;
+  border: none;
+  padding: 1rem 5rem;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+.theme-btn1 {
+  @extend .default-btn;
+}
+
+.theme-btn2 {
+  @include text(2.1rem, 700, 3.36rem, $theme_white_color);
+  background-color: $theme_primary_color;
+  height: 5.47rem;
+  width: 21.4rem;
+  line-height: 5.4rem;
+  border: none;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+/* Input */
+.input-control {
+  width: 35.7rem;
+  height: 5.7rem;
+  line-height: 5.7rem;
+  padding: 0 2rem;
+  border: 1px solid #1d053026;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  &::placeholder {
+    color: #827576;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 5.7rem;
+  }
+}
