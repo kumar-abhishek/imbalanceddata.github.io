@@ -355,8 +355,8 @@
     <section class="table-content-section" id="table-content">
         <div class="container">
             <h2 class="title2 text-center">Table of Contents</h2>
-            <div class="row justify-content-between">
-                <div class="col-sm-12 col-md-12 col-lg-5 mb-5">
+            <div class="tableOfContentSliders bg-light">
+                <div class="SingleSlider h-100">
                     <div class="content-box">
                         <ol>
                             <li> Introduction <img class="ms-5" src="assets/images/right-arrow.png" alt="icon"></li>
@@ -372,7 +372,35 @@
                         </ol>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 mb-5">
+                <div class="SingleSlider  h-100">
+                    <div class="content-box">
+                        <ol>
+                            <li> Introduction </li>
+                            <p class="common-text">This comprehensive guide is designed for a wide range of
+                                professionals, including ML researchers, data scientists, software engineers, and
+                                practical insight seekers. Whether you're a student, an experienced data expert, or
+                                someone looking to integrate ML solutions into software applications, this book has
+                                valuable insights for you.</p>
+                        </ol>
+                    </div>
+                </div>
+                <div class="SingleSlider h-100">
+                    <div class="content-box">
+                        <ol>
+                            <li> Introduction <img class="ms-5" src="assets/images/right-arrow.png" alt="icon"></li>
+                            <li> Oversampling Methods </li>
+                            <li> Undersampling </li>
+                            <li> Ensembling Methods </li>
+                            <li> Cost-Sensitive Learning </li>
+                            <li> Deep Learning </li>
+                            <li> Data-level deep learning methods </li>
+                            <li> Algorithm-level deep learning methods </li>
+                            <li> Hybrid deep learning methods </li>
+                            <li> Model calibration</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="SingleSlider  h-100">
                     <div class="content-box">
                         <ol>
                             <li> Introduction </li>
@@ -518,6 +546,47 @@
             slidesToShow: 4,
             slidesToScroll: 1,
             arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+        $('.tableOfContentSliders').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            pauseOnFocus: false,
+
             responsive: [
                 {
                     breakpoint: 1024,
