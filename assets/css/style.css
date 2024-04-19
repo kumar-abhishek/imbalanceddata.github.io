@@ -130,16 +130,18 @@ a {
 
 /* Input */
 .input-control {
-  width: 35.7rem;
+  width: 47%;
   height: 5.7rem;
   line-height: 5.7rem;
   padding: 0 2rem;
   border: 1px solid rgba(29, 5, 48, 0.1490196078);
   border-radius: 1rem;
+  font-size: 13px;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+  margin-right: 10px;
 }
 
 .input-control::placeholder {
@@ -248,7 +250,7 @@ a {
   padding: 3rem 4rem;
   background-color: #fff;
   box-shadow: 0.5rem -0.5rem 0rem 0.1rem #be7d57;
-  height: 40rem;
+  height: 70rem;
 }
 
 #learn .content-box .title2 {
@@ -315,7 +317,7 @@ a {
   color: #000;
 }
 
-#table-content .content-box ol li:first-child {
+#table-content .content-box .selected-child {
   font-size: 2.6rem;
   font-weight: 900;
   line-height: 5rem;
@@ -478,10 +480,11 @@ a {
 .slick-prev,
 .slick-next {
   top: 104%;
+  right:4%
 }
 
 .slick-prev {
-  left: 94%;
+  left: 88%;
 }
 
 /*===========================
